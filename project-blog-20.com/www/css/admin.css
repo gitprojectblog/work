@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 1000px;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: 1px solid #aaa;
+	background: #eee;
+	padding: 3px;
+	font-size: 12px;
+}
+
+#nav {
+	position: fixed;
+	left: 30px;
+	padding-top: 5px;
+}
+
+#nav a {
+	display: block;
+	width: 200px;
+	border-bottom: 1px solid #333;
+	padding: 2px;
+	text-decoration: none;
+	color: #333;
+}
+
+#content {
+	margin-left: 260px;
+	margin-top: 5px;
+	max-width: 1000px;
+}
+
+#content table {
+	width: 1000px;
+	max-width: 1000px;
+}
+	#content table tr th {
+		text-align: left;
+		border-bottom: 1px solid #333;
+	}
+	#content table tr td {
+		border-bottom: 1px solid #ccc;
+	}
+	#number {
+		width: 50px;
+	}
+	#author {
+		width: 200px;
+	}
+	#time {
+		width: 200px;
+	}
+	#news {
+		width: 100px;
+	}
+
+	#content > h3 {
+		padding: 10px;
+	}
+
+			#one-block {
+				font-family: tahoma;
+			}
+				#one-header {
+					overflow: hidden;
+				}					#one-header h2 {
+
+									}
+									#one-block-info {
+										border-bottom: 1px solid #ccc;
+										overflow: hidden;
+										padding: 5px 0 7px;
+									}
+									#one-block-img-title {
+										position: relative;
+										margin-top: 7px;
+										width: 100%;
+										height: 250px;
+										overflow: hidden;
+									}
+										#one-block-img {
+											width: 100%;
+											height: 250px;
+											position: absolute;
+											top: 0;
+											left: 0;
+											z-index: 99;
+											border: 1px solid #ccc;
+											border-bottom: 0px solid transparent;
+											border-radius: 3px 3px 0 0;
+											overflow: hidden;
+										}
+											#one-block-img img {
+												width: 100%;
+												min-height: 250px;
+											}
+										#one-block-title {
+											width: 100%;
+											position: absolute;
+											top: 0;
+											left: 0;
+											z-index: 100;
+										}
+											#one-block-title h2 {
+												position: absolute;
+												top: 30px;
+												left: 30px;
+												color: #fff;
+												text-shadow: 0 1px 0 #666;
+												font-family: 'Century Gothic', tahoma;
+											}
+
+									#one-time {
+										float: left;
+										font-size: 11px;
+										color: #888;
+										padding-top: 10px;
+									}
+									#one-author {
+										float: left;
+										font-size: 16px;
+										color: #66f;
+										padding-top: 5px;
+										margin-right: 5px;
+										font-weight: bold;
+										text-shadow: 0px -1px 0px #666;
+									}
+								#one-content {
+									margin: 0 0 10px 0;
+									background: #fff;
+									border: 1px solid #ccc;
+									border-top: 0 solid transparent;
+									padding: 10px;
+									padding-top: 20px;
+								}
+
+
+									.block {
+										font-family: tahoma;
+										margin: 15px 15px 0 0px;
+										/*margin-top: 20px;*/
+										display: inline-block;
+										background: #fff;
+										width: 100%;
+										height: 200px;
+										box-shadow: 0 0 5px #aaa;
+										position: relative;
+									}
+										.block-img {
+											float: left;
+											width: 280px;
+											height: 200px;
+										}
+									.block h3 {
+										text-align: left;
+										padding: 15px 0 0 0;
+										margin-left: 310px;
+									}
+									.block h3 a {
+										color: #222;
+									}
+									.urgent {
+
+									}
+										.urgent:before {
+											content: 'Срочная';
+											position: absolute;
+											top: -5px;
+											left: -5px;
+											width: 150px;
+											background: #f55;
+											color: #fff;
+											text-align: center;
+											padding: 5px;
+										}
+									.funny {
+
+									}
+										.funny:before {
+											content: 'Забавная';
+											position: absolute;
+											top: -5px;
+											left: -5px;
+											width: 150px;
+											background: #afa;
+											color: #666;
+											text-align: center;
+											padding: 5px;
+										}
+									.standart {
+
+									}
+										.standart:before {
+											content: 'Обычная';
+											position: absolute;
+											top: -5px;
+											left: -5px;
+											width: 150px;
+											background: #eee;
+											color: #888;
+											text-align: center;
+											padding: 5px;
+										}
+									.block_footer {
+										margin-left: 310px;
+										/*background: red;*/
+									}
+									.block_sc {
+										font-size: 15px;
+										color: #333;
+										margin-top: 10px;
+										margin-left: 310px;
+										height: 50px;
+										max-height: 85px;
+										/*background: #888;*/
+										/*overflow: auto;*/
+										overflow: hidden;
+										text-overflow: ellipsis;
+										position: absolute;
+										top: 60px;
+									}
+									.tegs {
+										margin-bottom: 3px;
+										position: absolute;
+										top: 115px;
+									}
+										.teg {
+											padding: 3px 5px;
+											background: #aae;
+											color: #fff;
+											display: inline-block;
+											font-size: 12px;
+											margin-right: 5px;
+											border-radius: 3px;
+										}
+									.block_time {
+										float: left;
+										font-size: 12px;
+										color: #666;
+										position: absolute;
+										top: 165px;
+									}
+									.block_aut {
+										position: absolute;
+										right: 60px;
+										color: #444;
+										font-size: 12px;
+										position: absolute;
+										top: 165px;
+									}
+										.block_aut:before {
+											content: 'Автор: ';
+											font-size: 12px;
+											color: #666;
+										}
+			#one-content {
+					margin: 10px 0;
+					background: #fff;
+					border: 1px solid #ccc;
+					padding: 10px;
+				}
+
+			#succunsucc {
+				border-top: 1px solid #333;
+				padding: 20px 0;
+				margin: 10px 0;
+			}
+
+			.suc_but {
+				display: block;
+				width: 300px;
+				padding: 10px;
+				background: #fff;
+				border: 1px solid #333;
+				outline: none;
+				margin-top: 5px;
+			}
+
+			#suc {
+				background: #9f9;
+			}
+
+			#unsuc {
+				background: #f99;
+			}
+
+			#unsuc_area {
+				max-width: 300px;
+				min-width: 300px;
+				width: 300px;
+				height: 150px;
+			}
