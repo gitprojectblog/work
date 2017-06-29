@@ -1,0 +1,40 @@
+h2 {
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+.about_input {
+	font-size: 16px;
+	color: #333;
+	padding-top: 6px;
+}
+.mark_input {
+	font-size: 9px;
+	color: #f33;
+}
+.mark_input:before {
+	content: '*';
+	color: #f33;
+	font-size: 9px;
+}
+input {
+	width: 500px;
+	padding: 5px;
+}
+textarea {
+	width: 500px;
+	max-width: 500px;
+	min-width: 500px;
+	padding: 5px;
+	height: 100px;
+}
+#content_left form button {
+	width: 500px;
+	padding: 10px;
+	font-size: 20px;
+	color: #333;
+	background: #eee;
+	border: 1px solid #ccc;
+	outline: none;
+	margin-top: 10px;
+	cursor: pointer;
+}

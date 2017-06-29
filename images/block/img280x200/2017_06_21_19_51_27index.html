@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/jquery.js"></script>
+	<!-- -->
+	<script src='js/jquery-3.1.1.min.js'></script>
+	<script src='js/slider.js'></script>
+	<!-- -->
+	<script src="js/jquery.plaxmove.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div class="layer1" style="top: -80px; left: -100px; "></div>
+<div class="layer2" style="top: -200px; left:0px; "></div>
+<div class="layer3" style="top: -120px; left: -10px; "></div>
+<script type="text/javascript">
+$(function(){
+	$('.layer1').plaxmove({ratioH:-0.01,ratioV:-0.01})
+	$('.layer2').plaxmove({ratioH:-0.03,ratioV:-0.03})
+	$('.layer3').plaxmove({ratioH:0.01,ratioV:0.01})
+});
+</script>
+
+<!--  -->
+
+	<div id='header-slider'>
+		<div id="wrap-slider">
+			<img src="layer1.png" alt="">
+			<img src="layer2.png" alt="">
+			<img src="layer3.png" alt="">
+		</div>
+	</div>
+
+<!--  -->
+
+</body>
+</html>
